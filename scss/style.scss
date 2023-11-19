@@ -1,0 +1,48 @@
+@import "../scss/nullstyle/nullstyle";
+@import "../scss/fontstyle/fontstyle";
+@import "../scss/header/headerstyle";
+@import "../scss/main/first-screen";
+@import "../scss/main/side-menu";
+@import "../scss/main/events";
+@import "../scss/main/news";
+@import "../scss/footer/footerstyle";
+
+
+@media (max-width: 1140px) {
+   [class*="__container"]{
+      max-width: 970px;
+   }
+   [class*="__container_header"]{
+      max-width: none;
+   }
+   
+}
+
+//TABLE
+
+@media (max-width: 991.98px) {
+   [class*="__container"]{
+      max-width: 750px;
+   }
+   [class*="__container_header"]{
+      max-width: none;
+   }
+}
+
+// MOBILE
+
+@media (max-width: 767.98px) {
+   [class*="__container"]{
+      max-width: none;
+   }
+
+}
+
+// MOBILE SMALL
+
+@media (max-width:479.98px){
+   
+}
+
+
+

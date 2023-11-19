@@ -1,0 +1,38 @@
+@font-face {
+   font-family: 'Circe';
+   src: url('../fonts/Circe-Regular.eot');
+   src: url('../fonts/Circe-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Circe-Regular.woff2') format('woff2'),
+       url('../fonts/Circe-Regular.woff') format('woff'),
+       url('../fonts/Circe-Regular.ttf') format('truetype'),
+       url('../fonts/Circe-Regular.svg#Circe-Regular') format('svg');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Plumb';
+   src: url('../fonts/PlumbCondensed-Bold.eot');
+   src: url('../fonts/PlumbCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/PlumbCondensed-Bold.woff2') format('woff2'),
+       url('../fonts/PlumbCondensed-Bold.woff') format('woff'),
+       url('../fonts/PlumbCondensed-Bold.ttf') format('truetype'),
+       url('../fonts/PlumbCondensed-Bold.svg#PlumbCondensed-Bold') format('svg');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'Plumb';
+   src: url('../fonts/Plumb-Medium.eot');
+   src: url('../fonts/Plumb-Medium.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/Plumb-Medium.woff2') format('woff2'),
+       url('../fonts/Plumb-Medium.woff') format('woff'),
+       url('../fonts/Plumb-Medium.ttf') format('truetype'),
+       url('../fonts/Plumb-Medium.svg#Plumb-Medium') format('svg');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}

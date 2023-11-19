@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Circe';
+    src: url('Circe-Regular.eot');
+    src: url('Circe-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Circe-Regular.woff2') format('woff2'),
+        url('Circe-Regular.woff') format('woff'),
+        url('Circe-Regular.ttf') format('truetype'),
+        url('Circe-Regular.svg#Circe-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PlumbCondensed';
+    src: url('PlumbCondensed-Bold.eot');
+    src: url('PlumbCondensed-Bold.eot?#iefix') format('embedded-opentype'),
+        url('PlumbCondensed-Bold.woff2') format('woff2'),
+        url('PlumbCondensed-Bold.woff') format('woff'),
+        url('PlumbCondensed-Bold.ttf') format('truetype'),
+        url('PlumbCondensed-Bold.svg#PlumbCondensed-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Plumb';
+    src: url('Plumb-Medium.eot');
+    src: url('Plumb-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Plumb-Medium.woff2') format('woff2'),
+        url('Plumb-Medium.woff') format('woff'),
+        url('Plumb-Medium.ttf') format('truetype'),
+        url('Plumb-Medium.svg#Plumb-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,135 @@
+.footer {
+   background: #30BCC9;
+   &__container {
+   }
+
+   &__items {
+      padding: 60px 0px 30px 0px;
+      display: flex;
+      align-items: start;
+      flex-wrap: wrap;
+   }
+
+   &__column {
+      margin: 0px 0px 40px 0px;
+      flex: 0 1 25%;
+   }
+}
+.menu-footer {
+
+   &__title {
+      margin: 0px 0px 20px 0px;
+      color: #FFF;
+      font-family: 'Plumb';
+      font-size: 21px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%; /* 27.3px */
+      letter-spacing: -0.21px;
+   }
+
+   &__item {
+      margin: 0px 0px 10px 0px;
+      a{
+         color: #E0E0E0;
+         font-family: 'Circe';
+         font-size: 14px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 135%; /* 18.9px */
+      }
+      a:hover{
+         color: #FFC41E;
+         text-decoration: underline;
+      }
+   }
+   &__item:last-child{
+      margin: 0px 0px 10px 0px;
+   }
+}
+.menu-footer-social-networks {
+
+   &__icons {
+      display: flex;
+      align-items: center;
+      margin: 0px -15px;
+   }
+
+   &__icon {
+      padding: 0px 15px;
+   }
+}
+.menu-footer-store {
+
+   &__icons {
+      
+   }
+
+   &__icon {
+      margin: 0px 0px 15px 0px;
+   }
+   &__icon:last-child{
+      margin: 0px;
+   }
+   
+}
+.menu-footer-subscribe {
+
+   &__text {
+   }
+
+   &__email {
+      display: flex;
+      input{
+         padding: 0px 0px 0px 20px;
+         width: 215px;
+         height: 40px;
+      }
+      input::placeholder{
+         color: #9C9C9C;
+         font-family: 'Circe';
+         font-size: 12px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 135%; /* 16.2px */
+         margin: 0px 20px 0px 0px;
+      }
+      a {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         width: 40px;
+         height: 40px;
+         background: #F6404F; 
+      }
+   }
+
+}
+// =================================================
+
+@media (max-width: 1140px) {
+   .footer {
+      
+      &__items {
+         justify-content: space-between;
+      }
+   
+      &__column {
+         flex: 0 1 50%;
+      }
+   }
+}
+@media (max-width: 539.98px) {
+   .footer {
+      
+      &__items {
+         flex-direction: column;
+         justify-content: none;
+      }
+   
+      &__column {
+         flex: 0 1 100%;
+         margin: 0px 0px 30px 0px;
+      }
+   }
+}

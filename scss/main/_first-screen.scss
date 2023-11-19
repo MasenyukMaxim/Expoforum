@@ -1,0 +1,215 @@
+.first-screen {
+   padding: 273px 0px 53px 0px;
+   background: url(../img/first-screen/bgc.png) 0 0 / cover no-repeat;
+   &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+   }
+
+   &__block-text {
+      flex: 0 1 74px;
+   }
+
+   &__items {
+      max-width: 540px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 105px -15px 0px -15px;
+   }
+
+   &__column {
+      margin: 0px 0px 30px 0px;
+      padding: 0px 15px;
+      flex: 0 1 50%;
+   }
+
+   &__item {
+   }
+}
+.block-text {
+ 
+   &__title {
+      margin: 0px 0px 25px 0px;
+      color: #FFF;
+      font-family: 'Plumb';
+      font-size: 64px;
+      font-style: normal;
+      text-transform: uppercase;
+   }
+
+   &__text {
+      margin: 0px 0px 25px 0px;
+      padding:0px 10px 0px 0px;
+      color: #FFF;
+      font-family: 'Circe';
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 140%; /* 33.6px */
+   }
+
+   &__link {
+      display: block;
+      color: #FFF;
+      font-family: 'Circe';
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 135%;
+      background: url(../img/first-screen/arrow.svg) 103px center no-repeat;
+   }
+}
+.item-first-screen { 
+   padding: 30px 40px;
+
+   &_color-1 {
+      background-color: #2378FC;
+   }
+   &_color-2 {
+      background-color: #30BCC9;
+   }
+   &_color-3 {
+      background-color: #FFC41E;
+   }
+   &_color-4 {
+      background-color: #F6404F;
+   }
+
+   &__title {
+      margin: 0px 0px 15px 0px;
+      color: #FFF;
+      font-family: 'Plumb';
+      font-size: 21px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 130%; /* 27.3px */
+      letter-spacing: -0.21px;
+   }
+
+   &__link {
+      display: block;
+      color: #FFF;
+      font-family: 'Circe';
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 135%; /* 18.9px */
+      background: url(../img/first-screen/arrow.svg) 82px center no-repeat;
+   }
+}
+
+// ========================================================
+
+// @media (max-width: 1140px) {
+//    .block-text {
+//       &__title {
+//          font-size: 62px;
+//       }
+   
+//       &__text {
+//          font-size: 20px;
+//       }
+   
+//       &__link {
+//          font-size: 14px;
+//       }
+//    }
+// }
+
+@media (max-width: 991.98px) {
+   
+   .first-screen{
+      padding: 210px 0px 20px 0px;
+      &__container{
+         flex-direction: column;
+         align-items: start;
+         flex-wrap: nowrap;
+         
+      }
+      &__block-text {
+         max-width: 420px;
+         flex: 0 1 auto;
+      }
+      &__items{
+         max-width: none;
+         margin: 50px -15px 0px -15px;
+         
+      }
+      &__column{
+         display: flex;
+      }
+   }
+   .item-first-screen {
+      display: flex;
+      flex-direction: column;
+      flex: 0 1 100%;
+      &__title {
+         flex: 1 1 auto;
+      }
+   }
+   .block-text {
+      &__link {
+         background: url(../img/first-screen/arrow.svg) 103px no-repeat;
+      }
+   }
+   .item-first-screen { 
+      &__link {
+         background: url(../img/first-screen/arrow.svg) 82px no-repeat;
+      }
+   }
+}
+@media (max-width: 529.98px){
+   .first-screen{
+      &__items{
+         flex-direction: column;
+      }
+   }
+   .item-first-screen {
+      display: flex;
+      flex-direction: column;
+      flex: 0 1 100%;
+      &__title {
+         flex: 1 1 auto;
+      }
+      &__link {
+         background: url(../img/first-screen/arrow.svg) 78px no-repeat;
+      }
+   }
+   .block-text {
+      &__title {
+         font-size: 62px;
+      }
+   
+      &__text {
+         font-size: 22px;
+      }
+   
+      &__link {
+         font-size: 14px;
+         background: url(../img/first-screen/arrow.svg) 88px no-repeat;
+      }
+      
+   }
+   
+}
+
+@media (max-width:479.98px){
+   .first-screen{
+      padding: 180px 0px 20px 0px;
+   }
+   .block-text {
+      &__title {
+         font-size: 44px;
+      }
+   
+      &__text {
+         font-size: 20px;
+      }
+   
+      &__link {
+         font-size: 14px;
+      }
+   }
+}
